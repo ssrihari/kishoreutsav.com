@@ -31,6 +31,8 @@ a.nav-link {
   padding: 10px 10px 0;
   height: 50px;
   color: #efaa34;
+  transition: padding 1s;
+  -webkit-transition: padding 1s;
 }
 
 a.nav-link:hover {
