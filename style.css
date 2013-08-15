@@ -2,6 +2,14 @@ body {
   margin: 0;
 }
 
+.quiz-body {
+  background: url("images/back.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -27,7 +35,7 @@ a.nav-link {
   text-align: center;
   background: url("images/red-mat.png") center no-repeat;
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.8;
   padding: 10px 10px 0;
   height: 50px;
   color: #efaa34;
@@ -44,3 +52,11 @@ a.nav-link:hover {
 .nav-link:hover {
   text-decoration: none;
 }
+
+.visishta-logo {
+}
+
+.vac-logo {
+  width: 70px;
+}
+
