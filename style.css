@@ -55,10 +55,13 @@ a.nav-link:hover {
   text-decoration: none;
 }
 
-.page {
+.home-body {
     position: relative;
-    top: -36px;
-    z-index: -1;
+}
+
+.index-nav {
+    position: absolute;
+    z-index: 2;
 }
 
 .visishta-logo {
