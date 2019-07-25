@@ -1,13 +1,39 @@
+html {
+    height: 100%;
+}
+
 body {
-  margin: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .page-body {
+    height: 100%;
+    background: url("images/back.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page-body-home {
+    height: 100%;
   background: url("images/back.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20% 0;
+}
+
+.page-image {
+    width: 50%;
+    margin: 2% auto 2%;
 }
 
 .ashtakam {
